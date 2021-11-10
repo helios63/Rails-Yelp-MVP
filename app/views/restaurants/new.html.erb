@@ -1,0 +1,16 @@
+<div class="container">
+
+<h1><%= link_to "Yelp",restaurants_path %></h1>
+
+<%= form_for(@restaurant) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :address %>
+  <%= f.text_field :address %>
+  <%= f.label :phone_number %>
+  <%= f.text_field :phone_number %>
+  <%= f.label :category %>
+  <%= f.select :category, ["italian", "french", "belgian", "chinese", "japanese"] %>
+  <%= f.submit class: "btn btn-primary mt-4"%>
+<% end %>
+</div>

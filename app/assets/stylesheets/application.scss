@@ -13,3 +13,43 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+.container {
+  max-width: 550px;
+  margin: 2em auto;
+}
+
+h1 {
+  padding: 0.3em 1em;
+  border: 1px solid coral;
+  border-radius: 10px;
+}
+
+a {
+  color: coral;
+  text-decoration: none;
+}
+
+.info {
+  padding: 1em;
+  border: 1px solid coral;
+  border-radius: 10px;
+  margin: 1em 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background-color: rgb(255, 226, 215);
+}
+
+input {
+  width:100%;
+  display: block;
+}
